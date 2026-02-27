@@ -1,3 +1,16 @@
 spring:
   application:
     name: demo-thymeleaf
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_db_01?serverTimezone=UTC
+    username: root
+    password: Sihun02060702!@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
